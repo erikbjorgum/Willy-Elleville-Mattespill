@@ -1,0 +1,87 @@
+* {
+    /* Eirin */
+    text-align: center;
+    border-style: rounded;
+  }
+  
+  h1 {
+    /* Hege */
+    color: darkSlateGray;
+    font-size: 55px;
+    text-shadow: 1px 2px oliveDrab;
+  }
+  
+  body {
+    /* Eirin */
+    background-color: lightblue;
+    font-size: 24px;
+    color: darkSlateGray;
+  }
+  
+  button {
+    /* Hege */
+    background-color: oliveDrab;
+    padding: 5px 20px;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: 16px;
+    border: 2px solid darkSlateGray;
+  }
+  
+  #btnStart{
+  background-color: pink;
+  }
+  #btnStart:hover {
+    background-color: DeepPink;
+    border: none;
+    box-shadow: 0 12px 16px 0 DarkOrchid, 0 17px 50px 0 DarkMagenta;
+  padding: 15px 35px;
+   }
+  #btnStart:active {
+     transform: translateY(20px);
+  }
+  #btnFriminutt {
+    /* Eirin */
+    background-color: pink;
+    padding: 5px 20px;
+    
+  }
+    
+  #btnHjelpetekst{
+    /* Jarle */
+    background-color: yellow;
+     display: inline-block;
+    border-radius: 20px;
+    padding: 10px 35px;
+  }
+  
+  input[type=text],
+  select {
+    /* Hege */
+    font-size: 20px;
+    color: darkSlateGray;
+    padding: 5px 20px;
+    border: 2px solid darkSlateGray;
+    border-radius: 8px;
+    margin: 8px 0;
+  }
+  
+  table,
+  th,
+  td {
+    border: 2px solid darkSlateGray;
+    border-collapse: collapse;
+    padding: 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th {
+    background-color: oliveDrab;
+  
+  }
+  
+  tr:nth-child(even) {
+    background-color: #C6E4EE;
+  }
+  

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattespill</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!----------- OVERSKRIFT  ---------------->
+<h1 id="head">Willys elleville mattespill </h1>
+
+<!----------- STARTMENY  ---------------->
+<div id="startmeny">
+  <div id="brukerinnlogging">
+    <p>
+      <input id="brukerNavn" type="text" placeholder="Skriv inn navnet ditt">
+      <button id="btnLagreNavn">OK!</button> <br>
+    </p>
+    <table id="highscore">
+      
+    </table>
+  </div>
+
+  <p id="velkomstsetning"></p>
+
+  <div id="brukervalg" style="display:none">
+    <!-- Valg av regneart --->
+    <p>
+      Velg regneart:
+      <select id="regnearter" size="1">
+        <option>Addisjon</option>
+        <option>Subtraksjon</option>
+        <option>Multiplikasjon</option>
+        <option>Divisjon</option>
+      </select>
+    </p>
+
+    <!-- Valg av vanskelighetsgrad --->
+    <p>
+      Vanskelighetsgrad:
+      <select id="vanskelighetsgrad" size="1">
+        <option>Lett</option>
+        <option>Middels</option>
+        <option>Krevende</option>
+        <option>Umulig</option>
+      </select>
+    </p>
+
+    <!--Fristende startknapp --->
+    <p><button id="btnStart" style="display:none">Start!</button></p>
+  </div>
+</div>
+
+
+<!----------- SPILLSIDE (SKJULT)  ---------------->
+<div id="spill" style="display:none">
+  <p id="tilbakemelding"> Lykke til! </p>
+  <p>
+    <p id="regnestykke">Her kjem reknestykket!</p>
+    <p>
+      <input id="svar" type="text" placeholder="Skriv inn svaret ditt">
+      <button id="btnSendInnSvar">Send inn svar!</button>
+    </p>
+    <button id="btnHjelp">Jeg trenger hjelp!</button>
+    <button id="btnFriminutt">Friminutt!</button>
+  </p>
+
+  <div id="oppgaveStatistikk">
+    <p id="tekstfeltOppgavenummer">Oppgave 1 av 10.</p>
+    <p id="tekstfeltStreak"></p>
+  </div>
+</div>
+
+<!----------- HJELPETEKST (SKJULT)  ---------------->
+
+<div id="hjelpetekst" style="display: none">
+  <p id="btnHjelpetekst"> </p>
+</div>
+
+<!----------- SLUTTSKJERM (SKJULT)  ---------------->
+<div id="sluttskjerm" style="display:none">
+  <p id="gratulasjon"></p>
+  <p id="resultattabell"></p>
+</div>
+ <br>
+<button id="btnStartmeny" style="display: none">Startmeny</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
